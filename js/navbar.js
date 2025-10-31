@@ -1,4 +1,5 @@
 // loadNavbar.js
+
 fetch("/pages/navbar.html")
   .then(response => response.text())
   .then(data => {
